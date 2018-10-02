@@ -1,0 +1,52 @@
+[debug] [2018-10-01T22:54:43.005Z] ----------------------------------------------------------------------
+[debug] [2018-10-01T22:54:43.007Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-10-01T22:54:43.007Z] CLI Version:   4.2.1
+[debug] [2018-10-01T22:54:43.007Z] Platform:      darwin
+[debug] [2018-10-01T22:54:43.007Z] Node Version:  v10.7.0
+[debug] [2018-10-01T22:54:43.012Z] Time:          Mon Oct 01 2018 17:54:43 GMT-0500 (Central Daylight Time)
+[debug] [2018-10-01T22:54:43.012Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-01T22:54:43.022Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-01T22:54:43.022Z] > authorizing via signed-in user
+[debug] [2018-10-01T22:54:43.024Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ambassadors-3b8ca  
+ 
+[debug] [2018-10-01T22:54:43.553Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-01T22:54:43.554Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ambassadors-3b8ca  
+ 
+[debug] [2018-10-01T22:54:43.993Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/edgargarcia/Documents/Documents - MacBook Pro de Edgar (2)/PaginaEmbajadores'...
+[info] 
+[debug] [2018-10-01T22:54:43.994Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/352761450769/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-01T22:54:44.406Z] <<< HTTP RESPONSE 200
+[info] i  hosting[ambassadors-3b8ca]: Serving hosting files from: public
+[info] ✔  hosting[ambassadors-3b8ca]: Local server: http://localhost:5000
+[debug] [2018-10-02T05:00:35.402Z] ----------------------------------------------------------------------
+[debug] [2018-10-02T05:00:35.404Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-10-02T05:00:35.404Z] CLI Version:   4.2.1
+[debug] [2018-10-02T05:00:35.404Z] Platform:      darwin
+[debug] [2018-10-02T05:00:35.404Z] Node Version:  v10.7.0
+[debug] [2018-10-02T05:00:35.405Z] Time:          Tue Oct 02 2018 00:00:35 GMT-0500 (Central Daylight Time)
+[debug] [2018-10-02T05:00:35.405Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-02T05:00:35.416Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-02T05:00:35.416Z] > authorizing via signed-in user
+[debug] [2018-10-02T05:00:35.418Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-02T05:00:35.418Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+
+[debug] [2018-10-02T05:00:36.469Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T05:00:36.485Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ambassadors-3b8ca  
+ 
+[debug] [2018-10-02T05:00:37.192Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-02T05:00:37.193Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ambassadors-3b8ca  
+ 
+[debug] [2018-10-02T05:00:38.825Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/edgargarcia/Documents/Documents - MacBook Pro de Edgar (2)/PaginaEmbajadores'...
+[info] 
+[debug] [2018-10-02T05:00:38.827Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/352761450769/clients/_:getWebAppConfig  
+ 
+[debug] [2018-10-02T05:00:40.566Z] <<< HTTP RESPONSE 200
+[info] i  hosting[ambassadors-3b8ca]: Serving hosting files from: public
+[info] ✔  hosting[ambassadors-3b8ca]: Local server: http://localhost:5000
